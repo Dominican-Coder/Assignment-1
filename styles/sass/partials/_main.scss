@@ -1,0 +1,17 @@
+h2 {
+    font-family: $headingFont;
+    font-weight: 700;
+    font-style: italic;
+    color: $primaryTextColor;
+    line-height: 43px;
+    text-transform: uppercase;
+    @include fontSize(42);   
+}
+
+// p {
+//     font-family: $textFont;
+//     line-height: 21px;
+//     letter-spacing: 0.3;
+//     @include fontSize(18);
+// }
+

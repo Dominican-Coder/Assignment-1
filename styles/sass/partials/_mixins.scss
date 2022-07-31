@@ -2,3 +2,5 @@
     font-size: $sizeValue * 1px;
     font-size: ($sizeValue/20) * 1rem;
 }
+        
+// @include fontSize(YOUR-SIZE);

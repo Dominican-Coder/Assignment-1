@@ -5,9 +5,9 @@
 }
 
 nav a {
-    color: inherit;
     font-family: $navFont ;
     font-weight: 600;
+    color: #fff;
     line-height: 29px;
     padding: 6px 8px;
     text-transform: uppercase;
@@ -15,8 +15,8 @@ nav a {
 }
 
 .navContainer .fa-bars {
-    display: none;
+    display: none;    
+    color: #fff;
     margin-top: 4px;
-    @include fontSize(26);
-    
+    @include fontSize(26);    
 }
