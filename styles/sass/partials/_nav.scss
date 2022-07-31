@@ -1,0 +1,22 @@
+.navContainer,
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: inherit;
+    font-family: $navFont ;
+    font-weight: 600;
+    line-height: 29px;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    @include fontSize(18);
+}
+
+.navContainer .fa-bars {
+    display: none;
+    margin-top: 4px;
+    @include fontSize(26);
+    
+}

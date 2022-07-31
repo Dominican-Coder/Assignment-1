@@ -326,6 +326,34 @@ img {
   margin: 0 auto;
 }
 
+.navContainer,
+.navFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav a {
+  color: inherit;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+  line-height: 29px;
+  padding: 6px 8px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-size: 0.9rem;
+}
+
+.navContainer .fa-bars {
+  display: none;
+  margin-top: 4px;
+  font-size: 26px;
+  font-size: 1.3rem;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,4 +363,78 @@ header {
   background-position: center;
   min-height: 100vh;
   padding-top: 30px;
+}
+
+h1 span {
+  display: block;
+}
+
+h1,
+.logo a,
+.logo a:hover,
+.logo a:focus,
+.logo a:active {
+  color: inherit;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  font-size: 1.25rem;
+}
+
+h1 {
+  color: #BA0621;
+  letter-spacing: 1px;
+  line-height: 97px;
+  margin: 130px 0 8px 0;
+  padding: 0;
+  font-size: 116.2px;
+  font-size: 5.81rem;
+}
+
+.headingContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 86%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headingContent p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 31.6px;
+  font-size: 31px;
+  font-size: 1.55rem;
+}
+
+.socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  line-height: 38px;
+  margin: 0 30px 50px 0;
+  font-size: 25px;
+  font-size: 1.25rem;
+}
+
+.socialMedia a,
+.socialMedia a:hover,
+.socialMedia a:focus,
+.socialMedia a:active {
+  color: inherit;
 }
